@@ -1,0 +1,8 @@
+.navClass{
+    text-decoration:none;    
+}
+.ulClass{
+    display:flex;
+    justify-content:space-around;
+
+}
