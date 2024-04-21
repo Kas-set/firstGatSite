@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { container }  from './Layout.module.css'
+import { container, ulClass }  from './Layout.module.css'
 
 console.log("css: ", {container})
 
@@ -9,9 +9,9 @@ const Layout = ({pageTitle, children}) => {
         <div>
             <h1>{pageTitle}</h1>
             <nav className={container}>
-                <ul>
+                <ul className={ulClass}>
                     <li>
-                        <Link to="/index">Home</Link>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
                         <Link to="/about">About</Link>
